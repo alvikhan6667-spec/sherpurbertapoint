@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>শেরপুর বার্তা-পয়েন্ট</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@500;700;800&family=Hind+Siliguri:wght@400;500;600&display=swap">
+<style>
+:root{--accent:#B3261E;--ink:#1A1A1A;--muted:#5A5A5A;--paper:#FAF8F4;--line:#E3DED3;--serif:'Noto Serif Bengali',serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 'Hind Siliguri',sans-serif}
+a{color:inherit;text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.top{background:var(--ink);color:#F2EFE9;font-size:14px}
+.top .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;padding-top:8px;padding-bottom:8px}
+header{text-align:center;padding:28px 0 12px}
+header h1{margin:0;font:800 56px/1.2 var(--serif)}
+header h1 span{color:var(--accent)}
+header p{margin:4px 0 0;color:var(--muted);font-size:15px}
+nav{border-top:3px solid var(--ink);border-bottom:1px solid #CFC9BE}
+nav .wrap{display:flex;gap:28px;overflow-x:auto;white-space:nowrap;font-weight:600}
+nav a{padding:12px 0;border-bottom:3px solid transparent}
+nav a.on{border-color:var(--accent)}
+main{padding-top:28px;padding-bottom:48px}
+.hero{display:grid;grid-template-columns:2fr 1fr;gap:32px}
+.ph{background:#D9D2C3;aspect-ratio:16/9;display:flex;align-items:flex-end;padding:16px}
+.tag{background:var(--accent);color:#fff;padding:2px 10px;font-size:14px;font-weight:600}
+.hero h2{font:800 38px/1.35 var(--serif);margin:16px 0 8px}
+.meta{color:var(--muted);font-size:14px;margin:0}
+.latest{border-left:1px solid #CFC9BE;padding-left:24px}
+.latest h3{margin:0 0 12px;font-size:15px;color:var(--accent)}
+.latest a{display:block;padding:12px 0;border-bottom:1px solid var(--line);font:700 19px/1.5 var(--serif)}
+.latest a:last-child{border:0}
+.latest small{display:block;font:400 14px 'Hind Siliguri',sans-serif;color:var(--muted)}
+.cols{margin-top:48px;border-top:3px solid var(--ink);padding-top:12px;display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+.cols h3{font:700 22px var(--serif);color:var(--accent);margin:0 0 12px}
+.cols .img{aspect-ratio:3/2;background:#DCD6C8}
+.cols h4{font:700 21px/1.45 var(--serif);margin:12px 0 4px}
+.cols .more{display:block;padding:10px 0;border-top:1px solid var(--line);font-weight:500}
+.news{margin-top:48px;background:var(--ink);color:#F2EFE9;padding:32px;display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between}
+.news h3{margin:0 0 4px;font:700 26px var(--serif)}
+.news p{margin:0;color:#D6D1C7;font-size:15px}
+.news form{display:flex;flex-wrap:wrap;gap:8px}
+.news input{min-height:44px;padding:0 14px;font:inherit;border:0;min-width:220px}
+.news button{min-height:44px;padding:0 22px;font:600 17px 'Hind Siliguri',sans-serif;background:var(--accent);color:#fff;border:0;cursor:pointer}
+.sr{position:absolute;left:-9999px}
+footer{border-top:1px solid #CFC9BE;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;padding-top:20px;padding-bottom:20px}
+@media(max-width:800px){.hero,.cols{grid-template-columns:1fr}.latest{border:0;padding:0}header h1{font-size:44px}.hero h2{font-size:28px}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span>মঙ্গলবার, ২৪ নভেম্বর ২০২৬</span><span><a href="#">ই-পেপার</a> · <a href="#">ভিডিও</a> · <a href="#">নিউজলেটার</a></span></div></div>
+<header><h1>শেরপুর <span>বার্তা-পয়েন্ট</span></h1><p>সত্য ও নির্ভীক সংবাদের ঠিকানা</p></header>
+<nav><div class="wrap">
+<a class="on" href="#">প্রথম পাতা</a><a href="#">বাংলাদেশ</a><a href="#">আন্তর্জাতিক</a><a href="#">রাজনীতি</a><a href="#">অর্থনীতি</a><a href="#">খেলা</a><a href="#">বিনোদন</a><a href="#">প্রযুক্তি</a><a href="#">মতামত</a><a href="#">জীবনযাপন</a>
+</div></nav>
+<main class="wrap">
+<div class="hero">
+<article>
+<div class="ph"><span class="tag">প্রধান খবর</span></div>
+<h2><a href="#">প্রধান সংবাদের শিরোনাম এখানে দুই লাইনে সুন্দরভাবে সাজানো থাকবে</a></h2>
+<p>সংবাদের সারসংক্ষেপ এখানে লেখা হবে। পাঠক যেন এক নজরে বুঝতে পারেন খবরটি কী নিয়ে এবং কেন গুরুত্বপূর্ণ।</p>
+<p class="meta">নিজস্ব প্রতিবেদক · ৩০ মিনিট আগে</p>
+</article>
+<aside class="latest">
+<h3>সর্বশেষ</h3>
+<a href="#"><small>১০:৪০</small>সর্বশেষ খবরের শিরোনাম এক</a>
+<a href="#"><small>১০:১৫</small>সর্বশেষ খবরের শিরোনাম দুই</a>
+<a href="#"><small>০৯:৫০</small>সর্বশেষ খবরের শিরোনাম তিন</a>
+<a href="#"><small>০৯:২০</small>সর্বশেষ খবরের শিরোনাম চার</a>
+<a href="#"><small>০৮:৫৫</small>সর্বশেষ খবরের শিরোনাম পাঁচ</a>
+</aside>
+</div>
+<div class="cols">
+<section><h3>অর্থনীতি</h3><div class="img"></div><h4><a href="#">অর্থনীতি বিভাগের প্রধান খবরের শিরোনাম</a></h4><p class="meta">২ ঘণ্টা আগে</p><a class="more" href="#">অর্থনীতি বিভাগের দ্বিতীয় খবর</a><a class="more" href="#">অর্থনীতি বিভাগের তৃতীয় খবর</a></section>
+<section><h3>খেলা</h3><div class="img" style="background:#D6D9CE"></div><h4><a href="#">খেলা বিভাগের প্রধান খবরের শিরোনাম</a></h4><p class="meta">৩ ঘণ্টা আগে</p><a class="more" href="#">খেলা বিভাগের দ্বিতীয় খবর</a><a class="more" href="#">খেলা বিভাগের তৃতীয় খবর</a></section>
+<section><h3>প্রযুক্তি</h3><div class="img" style="background:#D3D8DC"></div><h4><a href="#">প্রযুক্তি বিভাগের প্রধান খবরের শিরোনাম</a></h4><p class="meta">৪ ঘণ্টা আগে</p><a class="more" href="#">প্রযুক্তি বিভাগের দ্বিতীয় খবর</a><a class="more" href="#">প্রযুক্তি বিভাগের তৃতীয় খবর</a></section>
+</div>
+<section class="news">
+<div><h3>প্রতিদিনের সেরা খবর, ইমেইলে</h3><p>সকালের নিউজলেটারে সারাদিনের গুরুত্বপূর্ণ সংবাদ।</p></div>
+<form onsubmit="return false"><label class="sr" for="em">ইমেইল ঠিকানা</label><input id="em" type="email" placeholder="আপনার ইমেইল"><button>সাবস্ক্রাইব</button></form>
+</section>
+</main>
+<footer><div class="wrap"><span>© ২০২৬ শেরপুর বার্তা-পয়েন্ট। সর্বস্বত্ব সংরক্ষিত।</span><span><a href="#">আমাদের সম্পর্কে</a> · <a href="#">যোগাযোগ</a> · <a href="#">গোপনীয়তা নীতি</a></span></div></footer>
+</body>
+</html>
